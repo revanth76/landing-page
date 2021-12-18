@@ -109,3 +109,27 @@ h2 {
     border: #3882f6 solid 4px;
     border-radius: 8px;
 }
+
+/* 3rd block */
+
+.paragraph {
+    display: flex;
+    background-color: #e5e7eb;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph p {
+    display: flex;
+    width: 1200px;
+    height: 140px;
+    font-size: 36px;
+    margin:0;
+}
+
+.paragraph b {
+    display: flex;
+    margin-top: 100px;
+    margin-left: -120px;
+}
