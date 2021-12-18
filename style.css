@@ -1,0 +1,85 @@
+body {
+    background-color: #FFFFFF;
+    text-align: center;
+    font-family: 'Roboto', arial;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 20px 0px 20px 100px;
+}
+
+.header-logo div {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+.links {
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto' arial;
+}
+
+/* hero part */
+
+.hero {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.hero1 {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.hero1 p {
+    font-family: 'Roboto', arial;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+
+.hero button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.image-woman img {
+    width: 500px;
+    height: 300px;
+}
