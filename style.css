@@ -83,3 +83,29 @@ h1 {
     width: 500px;
     height: 300px;
 }
+
+/* 2nd block */
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    justify-content: center;
+}
+
+.content-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.content-info img {
+    width: 200px;
+    height: 200px;
+    border: #3882f6 solid 4px;
+    border-radius: 8px;
+}
