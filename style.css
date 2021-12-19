@@ -122,14 +122,57 @@ h2 {
 
 .paragraph p {
     display: flex;
-    width: 1200px;
+    width: 1050px;
     height: 140px;
     font-size: 36px;
     margin:0;
+    color: #1F2937
 }
 
 .paragraph b {
     display: flex;
     margin-top: 100px;
     margin-left: -120px;
+    color: #1F2937;
+}
+
+/* 4th block */
+
+.parent-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    flex-basis: 600px;
+    padding: 20px 210px;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.inside-content h4 {
+    color: #fff;
+}
+
+.inside-content {
+    text-align: left;
+    margin-left: -70px;
+}
+
+.inside-content p {
+    margin-top: -15px;
+    color: #e5e7eb;
+}
+
+.button button {
+    margin-right: -500px;
+    background-color: #3882f6;
+    border-color: #F9FAF8;
+    border-radius: 7px;
+    padding: 7px 25px;
+    color: #F9FAF8;
 }
